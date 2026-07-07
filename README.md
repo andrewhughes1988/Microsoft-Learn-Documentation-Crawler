@@ -2,6 +2,8 @@
 
 A specialized Python utility for downloading, cleaning, and aggregating Microsoft Learn documentation into a single Markdown file.
 
+My workflow: Find learn documentation link for azure/defender/entra > run the script to create a single .md file > upload to NotebookLM as a single source for study!
+
 The crawler resolves the backing GitHub source for a Microsoft Learn URL, performs an efficient sparse checkout, follows documentation navigation links, and writes the collected Markdown content into one readable output file.
 
 ## Features
